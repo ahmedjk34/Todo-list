@@ -22,7 +22,7 @@ font-family: 'Roboto Condensed', sans-serif;
   display: grid;
   min-height: 100vh;
   max-width: 100vw;
-  grid-template: 1fr 5fr / 1fr 5fr;
+  grid-template: 1fr 4.9fr / 1fr 5fr;
   grid-template-areas: "header header" "sideBar main";
 }
 header {
