@@ -1,5 +1,6 @@
 /*Fonts import*/
 @import url("https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Caveat:wght@700&family=Roboto+Condensed&display=swap");
+@import "/node_modules/@fortawesome/fontawesome-free/css/all.css";
 /*Fonts:
 font-family: 'Amiri', serif;
 font-family: 'Caveat', cursive;
