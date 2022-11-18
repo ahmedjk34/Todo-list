@@ -9,15 +9,75 @@
   </head>
   <body>
     <div class="page-container">
+      <div class="transparent"></div>
+      <div class="popup">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          placeholder="Enter the tracker name"
+          name
+          class="name"
+          ="name"
+          id="name"
+        />
+        <p>Icon:</p>
+        <div class="iconSelector">
+          <div class="iconHolder">
+            <i class="fa-solid fa-school"></i>
+          </div>
+          <div class="iconHolder">
+            <i class="fa-sharp fa-solid fa-check"></i>
+          </div>
+          <div class="iconHolder">
+            <i class="fa-sharp fa-solid fa-circle-check"></i>
+          </div>
+          <div class="iconHolder">
+            <i class="fa-solid fa-dumbbell"></i>
+          </div>
+          <div class="iconHolder">
+            <i class="fa-solid fa-list"></i>
+          </div>
+          <div class="iconHolder">
+            <i class="fa-solid fa-book"></i>
+          </div>
+          <div class="iconHolder">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+          </div>
+          <div class="iconHolder">
+            <i class="fa-solid fa-broom"></i>
+          </div>
+          <div class="iconHolder">
+            <i class="fa-solid fa-bath"></i>
+          </div>
+        </div>
+        <button id="addButton">Add</button>
+      </div>
       <header>
         <h1 class="logo">To-do List</h1>
-        <h1>Hello lads</h1>
         <p>
           Made with <i class="fa-solid fa-heart"></i> by ahmedjk34
           <i class="fa-brands fa-github"></i>
         </p>
       </header>
-      <div class="sideBar"></div>
+      <div class="sideBar">
+        <button id="menuItem" class="menuButton">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+          Daily
+        </button>
+        <button id="menuItem" class="menuButton">
+          <i class="fa-sharp fa-solid fa-check"></i>
+          Habit Tracker
+        </button>
+        <button id="menuItem" class="menuButton">
+          <i class="fa-solid fa-book"></i>
+          University
+        </button>
+        <span class="spacer"></span>
+        <button id="menuItemAdder" class="menuButton">
+          <i class="fa-solid fa-plus"></i>
+          Add a Tracker
+        </button>
+      </div>
       <main></main>
     </div>
   </body>
