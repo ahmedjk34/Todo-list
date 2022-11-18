@@ -37,5 +37,4 @@ addButton.addEventListener("click", () => {
   popup.setAttribute("style", "  display: none; ");
   newMenuItem();
 });
-
 export { chosenIcon, chosenName };
