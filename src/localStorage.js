@@ -9,3 +9,9 @@ export function storeMenuItem() {
     );
   });
 }
+export function storeTask(value) {
+  const tasks = document.querySelectorAll(".task");
+  tasks.forEach((value) => {
+    localStorage.setItem(value.firstElementChild.textContent, "");
+  });
+}

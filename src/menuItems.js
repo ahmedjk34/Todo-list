@@ -16,4 +16,5 @@ export const newMenuItem = function () {
   const spacer = document.querySelector(".spacer");
   sideBar.insertBefore(newItem, spacer);
   storeMenuItem();
+  location.reload();
 };
